@@ -1,6 +1,8 @@
 <img align="right" src=../../../20181003_Intro_git_GitHub/blob/master/images/github_icon.png width="225">
 
-# Introduction to version control using GitHub
+# Reusability and reproducibility for Bioinformatics analyses
+
+## Introduction to version control using GitHub
 
 - Date and time: 7th December 2018, 14:00 - 15:30
 - Location: [Bioinformatics Training Facility](http://map.cam.ac.uk/Craik-Marshall+Building), University of Cambridge, UK
