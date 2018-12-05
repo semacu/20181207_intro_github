@@ -24,9 +24,9 @@ Have you ever wondered how to keep automatic control of the different versions o
 
 - When reproducing someone's previous work (or your own past work), researchers very often benefit greatly from having access to detailed documention of the methods used e.g. *how were the experiments done? How were the computational analyses performed?*
 
-- In many cases you may not only want to see a single static version of your project but have access / keep track of the different versions during its development e.g. *how did the project looked like 1 year ago?*
+- In many cases you may not only want to see a single static version of your project but have access / keep track of the different versions during its development e.g. *at which stage was the project 1 year ago?*
 
-- Some of the existing manual approaches to version control have **clear limitations**:
+- Some of the existing manual approaches to version control have **some clear limitations**:
 
 <p align="center">
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/finaldoc.gif width="600">
