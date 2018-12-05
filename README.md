@@ -29,7 +29,7 @@ Have you ever wondered how to keep automatic control of the different versions o
 - Some of the existing manual approaches to version control have **some clear limitations**:
 
 <p align="center">
-<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/finaldoc.gif width="600">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/finaldoc.gif width="400">
 </p>
 
 <p align="right">
