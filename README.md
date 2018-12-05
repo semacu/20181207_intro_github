@@ -40,7 +40,7 @@ Have you ever wondered how to keep automatic control of the different versions o
 
 *An increasing share of modern research relies on analytical code and software. In turn, a good deal of irreproducible research can be attributed to computational tools that are difficult to decipher, use or recreate. Through the concerted efforts of computational researchers and stricter guidelines from publishers, the culture of scientific software is now more open and geared toward dissemination than ever [...]*
 
-- Git and GitHub are some of best-known tools for releasing / sharing / version control the scripts and computer code developed as part of a project or manuscript.
+- Git and GitHub are some of the best-known tools for releasing / sharing / version control the scripts and computer code developed as part of a project or manuscript.
 
 
 ## What is version control? What is Git? What is GitHub?
