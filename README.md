@@ -1,4 +1,4 @@
-# Reusability and reproducibility for Bioinformatics analyses
+# Reusability and reproducibility for bioinformatics analyses
 
 <img align="right" src=../../../20181003_Intro_git_GitHub/blob/master/images/github_icon.png width="225">
 
@@ -40,5 +40,46 @@ Have you ever wondered how to keep automatic control of the different versions o
 
 *An increasing share of modern research relies on analytical code and software. In turn, a good deal of irreproducible research can be attributed to computational tools that are difficult to decipher, use or recreate. Through the concerted efforts of computational researchers and stricter guidelines from publishers, the culture of scientific software is now more open and geared toward dissemination than ever [...]*
 
-- Git and GitHub are some of best-known tools for releasing / sharing / version control scripts and computer code developed as part of a project or manuscript.
+- Git and GitHub are some of best-known tools for releasing / sharing / version control the scripts and computer code developed as part of a project or manuscript.
+
+
+## What is version control? What is Git? What is GitHub?
+
+[**Version control**](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) is the management of *changes* (a.k.a. *revisions*) to any types of information
+  - In its simplest form, creating copies and changing the scripts' file names, e.g. v1.0, v1.1, v2.0
+  - Using tools that (to some extent) incorporate version control functionality, e.g. Google Drive and Dropbox
+  - Using dedicated version control tools, e.g. Git
+
+The first version control systems were created by groups writing software and code - see development of the Linux operating system. Fortunately they can now be used not only by computer scientist for developing computer code but by anyone for any file type :smile:
+
+There are two types of version control systems:
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/vcs.png width="800">
+</p>
+
+<p align="right">
+(adapted from http://lhzuigao.com/309note.html)
+</p>
+
+Advantages of *distributed* (right) over *centralised* (left) version control systems include:
+
+  - If the central repository (server) crashes, it could be recovered / backed up from any of the local repositories created e.g. by the researcher, collaborator or group leader.
+  - Each person can make changes to their local repositories *offline*. Then integrate their individual changes in the central repository (server) when connected *online*.
+
+
+[**Git**](https://git-scm.com) is a *distributed* version control system to keep track and compare the history of *changes* made to your scripts and files. It allows groups of people to work on the same documents at the same time, and without stepping on each other's toes. It was created by Linus Torvalds in 2005 for the development of the Linux project. It is **free** and **open source** and helps you with:
+  - Creating repositories to host your projects using the [command-line](https://en.wikipedia.org/wiki/Command-line_interface)
+  - Tracking changes to the files and folders within your repositories
+
+
+[**GitHub**](https://github.com/) is a platform to share and showcase your work online with collaborators and the wider audience. A tool to help you build projects that are collaborative, well documented, and version-controlled. It provides you with:
+  - A place to host and backup your repositories online
+  - A nice web interface to your repositories
+  - A strategy to collaborate with colleagues
+
+Versions in Git and GitHub are identified by a *revision number*, e.g. 60363b1, also known as *commit*. Each revision is associated with a *timestamp* and the *person* making the change. Revisions can be **compared**, **restored**, and with some types of files, **merged**.
+
+There are other softwares for version control similar to Git, e.g. [svn](https://en.wikipedia.org/wiki/Apache_Subversion). Similarly, there are other online platforms similar to GitHub to share and collaborate code, e.g. [GitLab](https://about.gitlab.com/).
+
 
