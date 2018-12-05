@@ -22,7 +22,7 @@ Have you ever wondered how to keep automatic control of the different versions o
 
 ## Background and motivation
 
-- When reproducing someone's previous work or your own past work, researchers very often benefit greatly from having access to detailed documention of the methods used e.g. how were the experiments done? How were the computational analyses performed?
+- When reproducing someone's previous work (or your own past work), researchers very often benefit greatly from having access to detailed documention of the methods used e.g. how were the experiments done? How were the computational analyses performed?
 
 - In many cases you don't only want to see a single static version of the project but may want to have access / keep track of the different versions of the project e.g. how did the project looked like 1 year ago?
 
