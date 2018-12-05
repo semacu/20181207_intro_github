@@ -50,7 +50,7 @@ Have you ever wondered how to keep automatic control of the different versions o
   - Using tools that (to some extent) incorporate version control functionality, e.g. Google Drive and Dropbox
   - Using dedicated version control tools, e.g. Git
 
-The first version control systems were created by groups writing software and code - see development of the Linux operating system. Fortunately they can now be used not only by computer scientist for developing computer code but by anyone for any file type :smile:
+The first version control systems were created by groups writing software and code. Fortunately, they can now be used not only by computer scientists (for developing computer code) but by anyone (for any type of file) :smile:
 
 There are two types of version control systems:
 
