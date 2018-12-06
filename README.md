@@ -182,3 +182,328 @@ Alternatively, [GitLab](https://about.gitlab.com/) uses a different business str
 
 - Some examples of Markdown syntax are available [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
+
+
+## Practical session: working with Git and GitHub
+
+We have four possible tutorials:
+
+- [Create a GitHub account](README.md#create-a-github-account) (+)
+- [Create your first repository](README.md#create-your-first-repository) (+)
+- [Explore your first repository and GitHub account](README.md#explore-your-first-repository-and-github-account) (++)
+- [Making changes using Git in the command-line](README.md#making-changes-using-git-in-the-command-line) (+++)
+- ... and some [extras](README.md#extras)
+
+
+### Create a GitHub account
+
+- Go to https://github.com
+- Fill in your **Username**, **Email** and **Password**. Then click on the green button "Sign up for GitHub".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p1_1.png width="800">
+</p>
+
+- Choose your personal plan page. Select "Free plan" and then click on "Continue".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p1_2.png width="800">
+</p>
+
+- Tailor your experience page. Choose the boxes that apply to you and click on "Submit". Otherwise, just go to "skip this step".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p1_3.png width="800">
+</p>
+
+- You have created a GitHub account! :smile:
+
+
+
+### Create your first repository
+
+- If you are not already signed in, sign in to GitHub using the **Username/Email** and **Password** created before.
+- Click on the top-right "avatar icon" and select "Your profile". Have a quick browse through your page.
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_1.png width="800">
+</p>
+
+- Click on the top-right "+" icon and select "New repository". **Verify your email address**. You should have just received an email from GitHub in the address provided before. Find this email and click on "Verify email address".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_2.png width="400"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_3.png width="400">
+</p>
+
+- Create a new repository page. Fill in a "Repository name", e.g. "my_first_repository" or "my_analysis_script". Write a short description of your repository e.g. "This is a test repository". For now choose "Public" and select the box to initialize this repository with a README. Finally, click on "Create repository".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_4.png width="800">
+</p>
+
+- You created your first repository! :rocket:
+
+
+
+### Explore your first repository and GitHub account
+
+#### Your first repository
+
+- Click on **README.md** and go to the right pencil "Edit this file". Type anything to change the file, e.g. "GitHub is fun!".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_1.png width="800">
+</p>
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_2.png width="800">
+</p>
+
+- Scroll down. Introduce a commit change message, e.g. "My first update", and select the radio button "Commit directly to the master branch". Then click on "Commit changes". Voilá!
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_3.png width="800">
+</p>
+
+- To view your **history of commits** for **README.md**, click on **README.md** and then on the "History" button on the right.
+- Alternatively, to view your **history of commits** for your first repository, click on the name of your repository and select the tab depicting a small clock and the number of commits next to it.
+
+Bonus points (5 min):
+
+- Try to create a new file
+- In your new repository, have a look at the "Settings" tab, explore "Collaborators" and try to add the person sitting next to you.
+
+
+#### Your GitHub account
+
+- Click on your top-right "avatar" icon and select "Settings".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_4.png width="800">
+</p>
+
+- Explore the tabs "Profile", "Account" and "Emails".
+
+
+**Key glossary:**
+
+- **Repository**: it can be thought of as a project folder. A **repository** contains all of the project files, issues, wikis and more. It also stores the history and versions of each file.
+
+- **Commit**: equivalent to saving your changes to a file. When you **commit** you usually include a brief description of the changes you made so you can identify versions later if you want to undo a change.
+
+- **Branch**: an identical copy of a project at a particular point in time kept separate from the 'master' branch (primary copy). This keeps your code in the 'master' branch safe while you make changes and experiment with code on the new branch. You can merge your new branch back into the 'master' branch when you want to publish your changes.
+
+- **Master**: the default branch in your repository.
+
+- **Collaborator**: someone with read and write privileges to a repository as approved by the repository owner.
+
+
+
+### Making changes using Git in the command-line
+
+#### Check if Git is already installed in your computer, otherwise install it
+
+- (If in Mac), go to *Finder* -> *Applications* -> *Utilities* -> *Terminal* and type `git --version`.
+  - If you get as output something like `git version 2.5.4 (Apple Git-61)`, then Git is already installed -> Jump to the next section.
+  - If you get something around `git: command not found`, keep reading.
+
+- To install Git in Mac, follow one of the next strategies:
+  1. When running one of the following commands `git --version`, `git config` or `xcode-select --install` you may be offered to install developer command line tools. Accept the offer and follow with "Install".
+  2. Go to https://git-scm.com/downloads and download git. Double click on the downloaded executable and follow instructions.
+  3. If you have `homebrew` installed, type the following in the Terminal: `brew install git`.
+
+- Check the following for installing in [Windows](http://happygitwithr.com/install-git.html#windows) or [Linux](http://happygitwithr.com/install-git.html#linux).
+
+
+#### Tell git who you are (your GitHub username) and what your email address is
+
+Example:
+
+```bash
+cd ~/Desktop
+git config --global user.name "semacu"
+git config --global user.email "sermarcue@gmail.com"
+```
+
+**Remember to change** "semacu" and "sermarcue@gmail.com" to the username and email you used when creating the GitHub account above.
+
+Check:
+
+```bash
+git config --list
+```
+
+
+#### Clone the repository created before
+
+```bash
+git clone https://github.com/semacu/my_first_repository.git
+cd my_first_repository
+ls -lh
+```
+
+Your first repository created using GitHub (my_first_repository) is now a local repository located in your Desktop folder. *Remember what we discussed earlier about Git being a distributed version control system*.
+
+
+#### Tell git what's your remote repository url to pull and push commits
+
+```bash
+cd ~/Desktop/my_first_repository
+git remote set-url origin https://semacu@github.com/semacu/my_first_repository.git
+```
+
+Check:
+
+```bash
+git remote -v
+```
+
+
+#### Make a change to the `README.md` file using your favourite text editor
+
+- In your Desktop, use Finder to go to the cloned folder and open `README.md` with your favourite text editor, e.g. TextEdit.
+- Change `README.md`, e.g. add a new line "This is my second line of script" and save changes.
+- Now, go back to the Terminal and check how changes are tracked by Git:
+
+```bash
+cd ~/Desktop/my_first_repository
+git status
+```
+
+The status of `README.md` is modified but the changes are not staged (red).
+
+
+#### Stage and commit the change
+
+Staging:
+
+```bash
+git add README.md
+git status
+```
+
+The status of `README.md` is modified and now the changes are `staged` (green) and ready to commit.
+
+Committing:
+
+```bash
+git commit -a -m "My second update"
+git status
+```
+
+#### Push changes to your online GitHub repository
+
+```bash
+git push origin master
+```
+
+Now check that your change to `README.md` made to your online GitHub repository.
+
+Bonus points (5 min):
+
+- Make another change to `README.md` using the online GitHub repository and pull the change to your local repository (Hint: use `git pull`).
+
+
+**Key glossary:**
+
+- **Clone**: a copy of an online repository on your local computer so you can make edits on your own personal copy without having to be online. You can sync changes between your clone and the remote copy (GitHub) when you are online.
+
+- **Remote**: a version of your project repository that is hosted on the Internet or network somewhere (e.g. copy of your project on GitHub vs. on your local computer).
+
+- **Stage** and **commit**:
+
+<p align="center">
+<img src=images/stage_commit.png width="500">
+</p>
+
+<p align="right">
+(https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+</p>
+
+
+- **Push**: sends the recent commit history from your local repository up to GitHub.
+
+- **Pull**: grabs any changes from the remote GitHub repository and merges them into your local repository.
+
+
+
+### Extras
+
+- Create an issue
+- Create a new branch, open a pull request and merge the newly created branch with the master branch
+- Fork a repository from another user e.g. https://github.com/githubtraining/hellogitworld, make some changes to the `README.txt` and create a pull request
+
+
+
+
+
+## Outlook
+
+- A basic overview to the basic functionality of Git and GitHub
+
+- Next steps for computational reproducibility, going back to the Nature Methods August 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
+
+*[...] Yet, even in the era of Git repositories, peer reviewing code can be frustrating and time consuming [...] Computational tools are complex objects that depend on many components to run. Dependencies include the operating system, programming language, external code libraries, configuration settings and run parameters. Reproducing these conditions is made even harder by the fact that components typically exist in multiple versions. Many come with their own prerequisites, creating a maddening rabbit hole of dependencies on dependencies [...]*
+
+In other words, future steps will be to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area - check them out :wink:
+
+- [Code Ocean](https://codeocean.com/): Nature Methods, Nature Biotechnology and Nature Machine Intelligence have launched a trial to facilitate the peer review of computational methods and to improve their reproducibility
+- [Binder](https://mybinder.org/)
+
+
+
+## The End
+
+Many Thanks for your attention! Enjoy Git and GitHub! :octocat:
+
+Feedback: please complete the following [short survey]()
+
+Any later questions about this workshop or the materials? Just email: sermarcue@gmail.com or mark.fernandes@cruk.cam.ac.uk
+
+
+
+## References and materials
+
+Blogs:
+- [Beyond Basic R - Version Control with Git](https://owi.usgs.gov/blog/beyond-basic-git/)
+
+Books:
+- [Happy Git and GitHub for the R user](http://happygitwithr.com/)
+
+Courses:
+- [A Friendly Introduction to GitHub](https://kirstiejane.github.io/friendly-github-intro/)
+- [Software Carpentry: Version Control with Git](http://swcarpentry.github.io/git-novice/)
+- [Resources to learn Git](http://try.github.io/)
+- [GitHub On Demand Training](https://services.github.com/on-demand/)
+- [A quick introduction to Git and GitHub](http://www.datacarpentry.org/semester-biology/materials/git-in-30-minutes/)
+
+Help:
+- GitHub [Help](https://help.github.com/)
+
+Papers:
+- Nature Methods 2018 editorial, [Easing the burden of code review](https://www.nature.com/articles/s41592-018-0137-5)
+- Perkel 2018:
+  - [When it comes to reproducible science, Git is code for success](https://www.natureindex.com/news-blog/when-it-comes-to-reproducible-science-git-is-code-for-success)
+  - [TechBlog: Git: The reproducibility tool scientists love to hate](http://blogs.nature.com/naturejobs/2018/06/11/git-the-reproducibility-tool-scientists-love-to-hate/)
+- Silver 2018 [Microsoft’s purchase of GitHub leaves some scientists uneasy](https://www.nature.com/articles/d41586-018-05426-0)
+- Russell et *al.* 2018 [A large-scale analysis of bioinformatics code on GitHub](https://www.biorxiv.org/content/early/2018/05/14/321919)
+- Perez-Riverol et *al.* 2016 [Ten Simple Rules for Taking Advantage of Git and GitHub](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947)
+- Perkel 2016 [Democratic databases: science on GitHub](https://www.nature.com/news/democratic-databases-science-on-github-1.20719)
+- Markowetz 2015 [Five selfish reasons to work reproducibly](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7)
+
+Videos:
+- [GitHub Training & Guides](https://www.youtube.com/githubguides)
+- [Git & GitHub tutorial for Beginners](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+
+Websites:
+- [git](https://git-scm.com/)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+
+
+## Acknowledgements
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/UniversityCambridge_logo.png height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/CRUKCI_logo.jpg height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/Jisc_logo.png height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/WellcomeTrust_logo.jpg height="50">
+</p>
+
