@@ -450,10 +450,7 @@ Bonus points (5 min):
 
 *[...] Yet, even in the era of Git repositories, peer reviewing code can be frustrating and time consuming [...] Computational tools are complex objects that depend on many components to run. Dependencies include the operating system, programming language, external code libraries, configuration settings and run parameters. Reproducing these conditions is made even harder by the fact that components typically exist in multiple versions. Many come with their own prerequisites, creating a maddening rabbit hole of dependencies on dependencies [...]*
 
-In other words, future steps will be to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area - check them out if interested :wink:
-
-  - [Code Ocean](https://codeocean.com/): Nature Methods, Nature Biotechnology and Nature Machine Intelligence have launched a trial to facilitate the peer review of computational methods and to improve their reproducibility
-  - [Binder](https://mybinder.org/)
+In other words, future steps will be to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area: [Code Ocean](https://codeocean.com/) (Nature Methods, Nature Biotechnology and Nature Machine Intelligence have launched a trial to facilitate the peer review of computational methods and to improve their reproducibility) and [Binder](https://mybinder.org/) - check them out if you are interested :wink:
 
 - Another future step, the ability to version control *large data files* (Gb - Tb) is currently not available. Some promising steps include the libraries [piggyback](https://cran.r-project.org/web/packages/piggyback/index.html) and [git lfs](https://git-lfs.github.com/).
 
