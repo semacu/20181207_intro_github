@@ -8,6 +8,7 @@
 - Location: [Bioinformatics Training Facility](http://map.cam.ac.uk/Craik-Marshall+Building), University of Cambridge, UK
 - [Programme](https://e.issuu.com/anonymous-embed.html?u=bioinfocambs&d=bioinformaticsforbiologists_dec2018)
 - Trainers: [Sergio](https://github.com/semacu) and [Mark](https://github.com/mfernandes61)
+- Short url: https://tinyurl.com/2018gitbio
 
 
 
