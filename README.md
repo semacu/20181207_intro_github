@@ -414,7 +414,7 @@ Bonus points (5 min):
 - **Stage** and **commit**:
 
 <p align="center">
-<img src=images/stage_commit.png width="500">
+<img src=../../../20181003_Intro_git_GitHub/blob/master/images/stage_commit.png width="500">
 </p>
 
 <p align="right">
