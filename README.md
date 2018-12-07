@@ -122,7 +122,7 @@ For this workshop, we will use git commands and GitHub's online interface.
 - To host and share your research outputs and software
   - Laboratories sharing own research e.g. the [Jefferis](https://github.com/jefferislab) or [Balasubramanian](https://github.com/sblab-bioinformatics) groups
   - Software source codes e.g. [BWA](https://github.com/lh3/bwa), an aligner of DNA sequences to reference genomes, and [PIDGIN](https://github.com/lhm30/PIDGINv2), and algorithm to predict protein targets for drug-like molecules
-  - Or even to share research slides - see [Bérénice Batut](https://bebatut-slides.github.io/backofen_lab_retreat_04_17/#/)
+  - Or even to share slides - see Bérénice Batut [work](https://bebatut-slides.github.io/backofen_lab_retreat_04_17/#/) and Stephen J. Eglen [slides](https://github.com/sje30/2018-12-07-rmd)
 
 - To create websites using [GitHub pages]((https://pages.github.com/))
   - Personal research websites, e.g. [Mike Love site](http://mikelove.github.io/)
