@@ -452,8 +452,8 @@ Bonus points (5 min):
 
 In other words, future steps will be to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area - check them out if interested :wink:
 
-- [Code Ocean](https://codeocean.com/): Nature Methods, Nature Biotechnology and Nature Machine Intelligence have launched a trial to facilitate the peer review of computational methods and to improve their reproducibility
-- [Binder](https://mybinder.org/)
+  - [Code Ocean](https://codeocean.com/): Nature Methods, Nature Biotechnology and Nature Machine Intelligence have launched a trial to facilitate the peer review of computational methods and to improve their reproducibility
+  - [Binder](https://mybinder.org/)
 
 - Another future step, the ability to version control *large data files* (Gb - Tb) is currently not available. Some promising steps include the libraries [piggyback](https://cran.r-project.org/web/packages/piggyback/index.html) and [git lfs](https://git-lfs.github.com/).
 
