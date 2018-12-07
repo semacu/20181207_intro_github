@@ -198,6 +198,8 @@ We have four possible tutorials:
 
 ### Create a GitHub account
 
+If you don't have a GitHub account already:
+
 - Go to https://github.com
 - Fill in your **Username**, **Email** and **Password**. Then click on the green button "Sign up for GitHub".
 
@@ -304,6 +306,8 @@ Bonus points (5 min):
 
 #### Check if Git is already installed in your computer, otherwise install it
 
+(Git is already installed so you can jump to the next section)
+
 - (If in Mac), go to *Finder* -> *Applications* -> *Utilities* -> *Terminal* and type `git --version`.
   - If you get as output something like `git version 2.5.4 (Apple Git-61)`, then Git is already installed -> Jump to the next section.
   - If you get something around `git: command not found`, keep reading.
@@ -316,17 +320,17 @@ Bonus points (5 min):
 - Check the following for installing in [Windows](http://happygitwithr.com/install-git.html#windows) or [Linux](http://happygitwithr.com/install-git.html#linux).
 
 
-#### Tell git who you are (your GitHub username) and what your email address is
+#### Tell Git who you are (your GitHub username) and what your email address is
 
-Example:
+Use your GitHub username and email address to tell Git who you are:
 
 ```bash
-cd ~/Desktop
+cd ~/Course_Materials
 git config --global user.name "semacu"
 git config --global user.email "sermarcue@gmail.com"
 ```
 
-**Remember to change** "semacu" and "sermarcue@gmail.com" to the username and email you used when creating the GitHub account above.
+**Remember to change** "semacu" and "sermarcue@gmail.com" to the username and email you used when creating the GitHub account.
 
 Check:
 
@@ -349,7 +353,7 @@ Your first repository created using GitHub (my_first_repository) is now a local 
 #### Tell git what's your remote repository url to pull and push commits
 
 ```bash
-cd ~/Desktop/my_first_repository
+cd ~/Course_Materials/my_first_repository
 git remote set-url origin https://semacu@github.com/semacu/my_first_repository.git
 ```
 
@@ -362,12 +366,12 @@ git remote -v
 
 #### Make a change to the `README.md` file using your favourite text editor
 
-- In your Desktop, use Finder to go to the cloned folder and open `README.md` with your favourite text editor, e.g. TextEdit.
+- Go to the cloned folder (`my_first_repository/`) and open `README.md` with your favourite text editor, e.g. gedit
 - Change `README.md`, e.g. add a new line "This is my second line of script" and save changes.
 - Now, go back to the Terminal and check how changes are tracked by Git:
 
 ```bash
-cd ~/Desktop/my_first_repository
+cd ~/Course_Materials/my_first_repository
 git status
 ```
 
@@ -431,8 +435,8 @@ Bonus points (5 min):
 ### Extras
 
 - Create an issue
-- Create a new branch, open a pull request and merge the newly created branch with the master branch
 - Fork a repository from another user e.g. https://github.com/githubtraining/hellogitworld, make some changes to the `README.txt` and create a pull request
+- Create a new branch, open a pull request and merge the newly created branch with the master branch
 
 
 
@@ -440,16 +444,18 @@ Bonus points (5 min):
 
 ## Outlook
 
-- A basic overview to the basic functionality of Git and GitHub
+- This was an overview to the basic functionality of Git and GitHub to version control and share scripts and text files.
 
 - Next steps for computational reproducibility, going back to the Nature Methods August 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
 
 *[...] Yet, even in the era of Git repositories, peer reviewing code can be frustrating and time consuming [...] Computational tools are complex objects that depend on many components to run. Dependencies include the operating system, programming language, external code libraries, configuration settings and run parameters. Reproducing these conditions is made even harder by the fact that components typically exist in multiple versions. Many come with their own prerequisites, creating a maddening rabbit hole of dependencies on dependencies [...]*
 
-In other words, future steps will be to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area - check them out :wink:
+In other words, future steps will be to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area - check them out if interested :wink:
 
 - [Code Ocean](https://codeocean.com/): Nature Methods, Nature Biotechnology and Nature Machine Intelligence have launched a trial to facilitate the peer review of computational methods and to improve their reproducibility
 - [Binder](https://mybinder.org/)
+
+- Another future step, the ability to version control *large data files* (Gb - Tb) is currently not available. Some promising steps include the libraries [piggyback](https://cran.r-project.org/web/packages/piggyback/index.html) and [git lfs](https://git-lfs.github.com/).
 
 
 
@@ -457,9 +463,7 @@ In other words, future steps will be to be able to execute code directly online 
 
 Many Thanks for your attention! Enjoy Git and GitHub! :octocat:
 
-Feedback: please complete the following [short survey]()
-
-Any later questions about this workshop or the materials? Just email: sermarcue@gmail.com or mark.fernandes@cruk.cam.ac.uk
+Any questions about this workshop or the materials? Just email: sermarcue@gmail.com or mark.fernandes@cruk.cam.ac.uk
 
 
 
@@ -470,6 +474,7 @@ Blogs:
 
 Books:
 - [Happy Git and GitHub for the R user](http://happygitwithr.com/)
+- [Git book](https://git-scm.com/book/en/v2)
 
 Courses:
 - [A Friendly Introduction to GitHub](https://kirstiejane.github.io/friendly-github-intro/)
@@ -505,6 +510,6 @@ Websites:
 ## Acknowledgements
 
 <p align="center">
-<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/UniversityCambridge_logo.png height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/CRUKCI_logo.jpg height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/Jisc_logo.png height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/WellcomeTrust_logo.jpg height="50">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/UniversityCambridge_logo.png height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/CRUKCI_logo.jpg height="50">
 </p>
 
