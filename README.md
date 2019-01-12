@@ -474,6 +474,7 @@ Books:
 - [Git book](https://git-scm.com/book/en/v2)
 
 Courses:
+- [Open Scientific Code using Git and GitHub](https://open-source-for-researchers.github.io/open-source-workshop/) by Yo Yehudi
 - [A Friendly Introduction to GitHub](https://kirstiejane.github.io/friendly-github-intro/)
 - [Software Carpentry: Version Control with Git](http://swcarpentry.github.io/git-novice/)
 - [Resources to learn Git](http://try.github.io/)
